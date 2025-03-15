@@ -1,0 +1,128 @@
+{
+  "about": {
+    "name": "Auryfierou",
+    "title": "Front End Developer & Discord Bot Developer",
+    "bio": "<p>I love coding since high school and at the beginning I was taught to make a website, then coding with C#, and then also followed the arduino teaching.<br>And after that, I went to college, majoring in informatics.<br>I like javascript and python.<br>In recent years, I also like to develop my own discord bot using the Discord.js package.</p>",
+    "image": "https://res.cloudinary.com/dvngon2cn/image/upload/v1741884567/logo_250x250_vxf3s0.png",
+    "skills": [
+      "Coding",
+      "Streaming",
+      "Editing",
+      "Photography"
+    ],
+    "experience": [
+      {
+        "position": "Celestial Harmony 48 Developer",
+        "company": "JKT48 Discord Community",
+        "period": "May 2024 - December 2024",
+        "description": "Lead development of Discord bot using Node.js, Discord.js, SQLite3."
+      },
+      {
+        "position": "48Intens Developer",
+        "company": "JKT48 Discord Community",
+        "period": "December 2024 - Present",
+        "description": "Project website developer."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Computer Science",
+        "institution": "University of Technology",
+        "period": "2016 - 2018",
+        "description": "Specialized in Software Engineering with focus on web technologies and distributed systems."
+      },
+      {
+        "degree": "Bachelor of Computer Science",
+        "institution": "State University",
+        "period": "2012 - 2016",
+        "description": "Graduated with honors. Coursework included algorithms, data structures, and web development."
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "1",
+      "title": "JKT48 Live Notification Discord BOT",
+      "description": "JKT48 Live Notification is a Discord bot that provides real-time notifications for JKT48 live streams on Showroom and IDN Live. Stay updated with your favorite JKT48 members' live streams and never miss a moment!.",
+      "content": "<p>This project is a personal project that aims to help the JKT48 community on discord to get the latest information about JKT48 and Livestream from JKT48 members as well.<br>This project uses APIs from 2 applications and 1 website scraping.<br>The 2 applications are<br>- Showroom App<br>- IDN App<br>and website<br>https://jkt48.com<br>This project uses Node.js, Discord.js, SQLite3, Express</p>",
+      "image": "https://res.cloudinary.com/dvngon2cn/image/upload/v1741807518/jkt48-live-notification-profile.png",
+      "date": "June 2024",
+      "client": "Personal Project",
+      "role": "Lead Developer",
+      "technologies": ["Node.js", "Discord.js", "Express", "Axios", "SQLite3"],
+      "demoUrl": "https://discord.gg/TZCSuEAn3j",
+      "githubUrl": "https://github.com/ayouree/live-notification-bot",
+      "featured": false
+    },
+    {
+      "id": "2",
+      "title": "48Intens Website",
+      "description": "Fanmade website jkt48, fresh ui, and responsive by 48intens community.",
+      "content": "<p>Fanmade website jkt48, fresh ui, and responsive by 48intens community.</p>",
+      "image": "https://res.cloudinary.com/dvngon2cn/image/upload/v1742059434/cc04003f-41c4-4572-a3a0-f401cb1490f0.png",
+      "date": "December 2024",
+      "client": "",
+      "role": "Designer & Developer",
+      "technologies": ["HTML", "Javascript", "Tailwind CSS", "Framer Motion"],
+      "demoUrl": "https://48intens.com",
+      "githubUrl": "https://github.com/Typicalsleepingboy/finland-miracle",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "Obfuscator Website",
+      "description": "A Obfuscator website for HTML, Javascript, Typescript programming language.",
+      "content": "<p>A Obfuscator website for HTML, Javascript, Typescript programming language.</p>",
+      "image": "https://res.cloudinary.com/dvngon2cn/image/upload/v1742060226/064eeb7f-b1c4-4bec-a24b-4e7577910a75.png",
+      "date": "February 2025",
+      "client": "ProductivityPro",
+      "role": "Full Stack Developer",
+      "technologies": ["React", "Node.js", "Vite", "Tailwind CSS", "Typescript"],
+      "demoUrl": "https://obfuscators.vercel.app/",
+      "githubUrl": "https://github.com/ayouree/Obfuscator",
+      "featured": false
+    }
+  ],
+  "techStack": [
+    { "id": "1", "name": "React", "icon": "https://skillicons.dev/icons?i=react" },
+    { "id": "2", "name": "Discord.js", "icon": "https://skillicons.dev/icons?i=discordjs" },
+    { "id": "3", "name": "JavaScript", "icon": "https://skillicons.dev/icons?i=js" },
+    { "id": "4", "name": "Node.js", "icon": "https://skillicons.dev/icons?i=nodejs" },
+    { "id": "5", "name": "Tailwind CSS", "icon": "https://skillicons.dev/icons?i=tailwind" },
+    { "id": "6", "name": "SQLite3", "icon": "https://skillicons.dev/icons?i=sqlite" },
+    { "id": "7", "name": "Python", "icon": "https://skillicons.dev/icons?i=py" },
+    { "id": "8", "name": "Bootstrap", "icon": "https://skillicons.dev/icons?i=bootstrap" }
+  ],
+  "contact": {
+    "email": "contact@ayouree.cyou",
+    "address": "Surabaya, JawaTimur",
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/ayouree",
+        "icon": "<i class=\"fa-brands fa-github\"></i>"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/auryfierou-marva-marmora",
+        "icon": "<i class=\"fa-brands fa-linkedin\"></i>"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://instagram.com/_ryuug",
+        "icon": "<i class=\"fa-brands fa-instagram\"></i>"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/_ryuug",
+        "icon": "<i class=\"fa-brands fa-twitter\"></i>"
+      },
+      {
+        "name": "Tiktok",
+        "url": "https://tiktok.com/_ryuug",
+        "icon": "<i class=\"fa-brands fa-tiktok\"></i>"
+      }
+    ]
+  }
+}
+
