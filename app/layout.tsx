@@ -23,6 +23,10 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         />
+        <link
+          rel="icon"
+          type="image/x-icon"
+          href="https://res.cloudinary.com/dvngon2cn/image/upload/v1742128442/logo_64x64_j5mopl.png"></link>
       </head>
       <body className={inter.className}>
         <ThemeProvider
