@@ -4,12 +4,7 @@
     "title": "Front End Developer & Discord Bot Developer",
     "bio": "<p>I love coding since high school and at the beginning I was taught to make a website, then coding with C#, and then also followed the arduino teaching.<br>And after that, I went to college, majoring in informatics.<br>I like javascript and python.<br>In recent years, I also like to develop my own discord bot using the Discord.js package.</p>",
     "image": "https://res.cloudinary.com/dvngon2cn/image/upload/v1741884567/logo_250x250_vxf3s0.png",
-    "skills": [
-      "Coding",
-      "Streaming",
-      "Editing",
-      "Photography"
-    ],
+    "skills": ["Coding", "Streaming", "Editing", "Photography"],
     "experience": [
       {
         "position": "Celestial Harmony 48 Developer",
@@ -77,21 +72,55 @@
       "date": "February 2025",
       "client": "ProductivityPro",
       "role": "Full Stack Developer",
-      "technologies": ["React", "Node.js", "Vite", "Tailwind CSS", "Typescript"],
+      "technologies": [
+        "React",
+        "Node.js",
+        "Vite",
+        "Tailwind CSS",
+        "Typescript"
+      ],
       "demoUrl": "https://obfuscators.vercel.app/",
       "githubUrl": "https://github.com/ayouree/Obfuscator",
       "featured": false
     }
   ],
   "techStack": [
-    { "id": "1", "name": "React", "icon": "https://skillicons.dev/icons?i=react" },
-    { "id": "2", "name": "Discord.js", "icon": "https://skillicons.dev/icons?i=discordjs" },
-    { "id": "3", "name": "JavaScript", "icon": "https://skillicons.dev/icons?i=js" },
-    { "id": "4", "name": "Node.js", "icon": "https://skillicons.dev/icons?i=nodejs" },
-    { "id": "5", "name": "Tailwind CSS", "icon": "https://skillicons.dev/icons?i=tailwind" },
-    { "id": "6", "name": "SQLite3", "icon": "https://skillicons.dev/icons?i=sqlite" },
-    { "id": "7", "name": "Python", "icon": "https://skillicons.dev/icons?i=py" },
-    { "id": "8", "name": "Bootstrap", "icon": "https://skillicons.dev/icons?i=bootstrap" }
+    {
+      "id": "1",
+      "name": "React",
+      "icon": "https://skillicons.dev/icons?i=react"
+    },
+    {
+      "id": "2",
+      "name": "Discord.js",
+      "icon": "https://skillicons.dev/icons?i=discordjs"
+    },
+    {
+      "id": "3",
+      "name": "JavaScript",
+      "icon": "https://skillicons.dev/icons?i=js"
+    },
+    {
+      "id": "4",
+      "name": "Node.js",
+      "icon": "https://skillicons.dev/icons?i=nodejs"
+    },
+    {
+      "id": "5",
+      "name": "Tailwind CSS",
+      "icon": "https://skillicons.dev/icons?i=tailwind"
+    },
+    {
+      "id": "6",
+      "name": "SQLite3",
+      "icon": "https://skillicons.dev/icons?i=sqlite"
+    },
+    {"id": "7", "name": "Python", "icon": "https://skillicons.dev/icons?i=py"},
+    {
+      "id": "8",
+      "name": "Bootstrap",
+      "icon": "https://skillicons.dev/icons?i=bootstrap"
+    }
   ],
   "contact": {
     "email": "contact@ayouree.cyou",
@@ -99,30 +128,55 @@
     "socialLinks": [
       {
         "name": "GitHub",
-        "url": "https://github.com/ayouree",
+        "url": "/github",
         "icon": "<i class=\"fa-brands fa-github\"></i>"
       },
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/in/auryfierou-marva-marmora",
+        "url": "/linkedin",
         "icon": "<i class=\"fa-brands fa-linkedin\"></i>"
       },
       {
         "name": "Instagram",
-        "url": "https://instagram.com/_ryuug",
+        "url": "/instagram",
         "icon": "<i class=\"fa-brands fa-instagram\"></i>"
       },
       {
         "name": "Twitter",
-        "url": "https://twitter.com/_ryuug",
+        "url": "/twitter",
         "icon": "<i class=\"fa-brands fa-twitter\"></i>"
       },
       {
         "name": "Tiktok",
-        "url": "https://tiktok.com/_ryuug",
+        "url": "/tiktok",
         "icon": "<i class=\"fa-brands fa-tiktok\"></i>"
       }
     ]
-  }
+  },
+  "routes": [
+    {
+      "path": "/discord",
+      "redirect": "https://discord.gg/TZCSuEAn3j"
+    },
+    {
+      "path": "/github",
+      "redirect": "https://github.com/ayouree"
+    },
+    {
+      "path": "/linkedin",
+      "redirect": "https://linkedin.com/in/auryfierou-marva-marmora"
+    },
+    {
+      "path": "/instagram",
+      "redirect": "https://instagram.com/_ryuug"
+    },
+    {
+      "path": "/tiktok",
+      "redirect": "https://tiktok.com/@_ayouree"
+    },
+    {
+      "path": "/twitter",
+      "redirect": "https://twitter.com/_ryuug"
+    }
+  ]
 }
-
