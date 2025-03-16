@@ -177,6 +177,18 @@
     {
       "path": "/twitter",
       "redirect": "https://twitter.com/_ryuug"
+    },
+    {
+      "path": "/donate",
+      "redirect": "https://saweria.co/ryuuug"
+    },
+    {
+      "path": "/invite_1",
+      "redirect": "https://discord.com/oauth2/authorize?client_id=1253053660242514022&permissions=2147503104&integration_type=0&scope=bot"
+    },
+    {
+      "path": "/invite_2",
+      "redirect": "https://discord.com/oauth2/authorize?client_id=1334568782827356170&permissions=2147503104&integration_type=0&scope=bot"
     }
   ]
 }
