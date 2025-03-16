@@ -41,9 +41,10 @@ export default function Navbar() {
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-all ${
-        isScrolled ? "bg-background/80 backdrop-blur-md border-b" : "bg-background"
-      }`}
-    >
+        isScrolled
+          ? "bg-background/80 backdrop-blur-md border-b"
+          : "bg-background"
+      }`}>
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2 font-bold text-xl">
           Portfolio
@@ -56,14 +57,40 @@ export default function Navbar() {
               href={item.path}
               className={`text-sm font-medium transition-colors hover:text-primary ${
                 isActive(item.path) ? "text-primary" : "text-muted-foreground"
-              }`}
-            >
+              }`}>
               {item.name}
             </Link>
           ))}
         </nav>
+
+        <div className="flex items-center gap-2">
+          <Sheet>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" className="md:hidden">
+                <Menu className="h-5 w-5" />
+                <span className="sr-only">Toggle menu</span>
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <nav className="flex flex-col gap-4 mt-8">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.path}
+                    href={item.path}
+                    className={`text-lg font-medium transition-colors hover:text-primary ${
+                      isActive(item.path)
+                        ? "text-primary"
+                        : "text-muted-foreground"
+                    }`}>
+                    {item.name}
+                  </Link>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
     </header>
-  )
+  );
 }
 
