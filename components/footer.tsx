@@ -13,15 +13,15 @@ export default function Footer() {
           </p>
         </div>
         <div className="flex items-center gap-4">
-          <Link href="https://github.com/ayouree" target="_blank" rel="noopener noreferrer">
+          <Link href="/github" target="_blank" rel="noopener noreferrer">
             <Github className="h-5 w-5 text-muted-foreground hover:text-foreground" />
             <span className="sr-only">GitHub</span>
           </Link>
-          <Link href="https://twitter.com/_ryuug" target="_blank" rel="noopener noreferrer">
+          <Link href="/twitter" target="_blank" rel="noopener noreferrer">
             <Twitter className="h-5 w-5 text-muted-foreground hover:text-foreground" />
             <span className="sr-only">Twitter</span>
           </Link>
-          <Link href="https://linkedin.com/in/auryfierou-marva-marmora" target="_blank" rel="noopener noreferrer">
+          <Link href="/linkedin" target="_blank" rel="noopener noreferrer">
             <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground" />
             <span className="sr-only">LinkedIn</span>
           </Link>
